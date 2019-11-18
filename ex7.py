@@ -17,5 +17,8 @@ end11 = "e"
 end12 = "r"
 
 # watch end = ' ' at the end. try removing it to see what happens
+
+# If we put end=' ' at the end of print line this tells print to not end the line
+# with a newline character and go to the next line.
 print(end1 + end2 + end3 + end4 + end5 + end6)  # end='')
 print(end7 + end8 + end9 + end10 + end11 + end12)

@@ -15,7 +15,7 @@ print("What kind of computer do you have?")
 computer = input(prompt)
 
 print(f"""
-Alright, so ou said {likes} about me.
+Alright, so you said {likes} about me.
 You live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice.
 """)

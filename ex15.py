@@ -9,9 +9,12 @@ print(f"Here's your file {filename}:")
 # reads the text in the file and prints what was in the file
 print(txt.read())
 
-print("Type the filename again:")
-file_again = input("> ")
+# close the text file when done
+txt.close()
 
-txt_again = open(file_again)
+# print("Type the filename again:")
+# file_again = input("> ")
 
-print(txt_again.read())
+# txt_again = open(file_again)
+
+# print(txt_again.read())
